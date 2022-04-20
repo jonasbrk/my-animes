@@ -5,4 +5,6 @@ export const colors = {
   darkerGray: '#393939',
   gray: '#C4C4C4',
   yellow: '#FFAC0B',
+  white: '#fff',
+  transparent: 'transparent',
 };
