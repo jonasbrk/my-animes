@@ -9,7 +9,10 @@ export type StackParams = {
 export const AuthRoutes = () => {
   const Stack = createNativeStackNavigator<StackParams>();
   return (
-    <Stack.Navigator>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}>
       <Stack.Screen name="Login" component={Login} />
     </Stack.Navigator>
   );
