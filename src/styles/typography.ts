@@ -37,7 +37,7 @@ export const TitleSmall = styled.Text<TypographyProps>`
 `;
 
 export const Paragraph = styled.Text<TypographyProps>`
-  color: ${colors.primary};
+  color: ${props => (props.color ? props.color : colors.white)};
   width: ${props => props.width || 'auto'};
   font-size: 16px;
   font-weight: ${props => fontWeight[props.fontWeight]};
@@ -47,7 +47,7 @@ export const Paragraph = styled.Text<TypographyProps>`
 `;
 
 export const TextSmall = styled.Text<TypographyProps>`
-  color: ${colors.primary};
+  color: ${props => (props.color ? props.color : colors.white)};
   width: ${props => props.width || 'auto'};
   font-size: 12px;
   font-weight: ${props => fontWeight[props.fontWeight]};
