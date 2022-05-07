@@ -4,3 +4,6 @@ export {SearchIcon} from './Search.icon';
 export {UserIcon} from './User.icon';
 export {Logo} from './Logo';
 export {XmarkIcon} from './Xmark.icon';
+export {FilterIcon} from './Filter.icon';
+export {ListFilterIcon} from './ListFilter.icon';
+export {TableFilterIcon} from './TableFilter.icon';
