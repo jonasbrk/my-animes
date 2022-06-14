@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Login} from '../pages';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
@@ -8,6 +8,7 @@ export type StackParams = {
 
 export const AuthRoutes = () => {
   const Stack = createNativeStackNavigator<StackParams>();
+
   return (
     <Stack.Navigator
       screenOptions={{

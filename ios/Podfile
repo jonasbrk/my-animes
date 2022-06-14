@@ -21,6 +21,10 @@ target 'myanimes' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
+  pod 'react-native-encrypted-storage', :path => '../node_modules/react-native-encrypted-storage'
+
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   target 'myanimesTests' do
     inherit! :complete
     # Pods for testing
